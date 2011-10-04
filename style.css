@@ -1,0 +1,150 @@
+/*
+Theme Name: Dog Nanny
+Theme URI: http://mcribbs.net
+Description: Custom theme for NYC Dog Nanny.
+Version: 0.1
+Author: Matt Cribbs
+Author URI: http://mcribbs.net
+Tags: custom-header, two-columns, fixed-width, white, light, sticky-post, right-sidebar, rtl-language-support, translation-ready, custom-menu, custom-background, blog, business, clean, faded, light, minimal
+*/
+
+/* CSS Document */
+
+* { 
+	margin:0; padding:0;
+	border:0;
+}
+
+body{ background:#fff;
+	 border:0;
+	 font:13px Arial, Helvetica, sans-serif; color:#8e846b;
+	 line-height:20px;
+}
+
+
+/* ============================= main layout ====================== */
+
+a{ color:#fd8c1e; text-decoration: underline; outline:none}
+a:hover{ text-decoration: none}
+li{ list-style:none}
+h1{ font-size:36px; line-height:38px; text-transform:uppercase; color:#bea97c; padding:31px 0 20px 0}
+p{ padding-bottom:20px;}
+img{ vertical-align:top}
+
+
+.bot{ height:73px; background:url(images/bg_bot.jpg) top center repeat-x}
+/* ============================= header ====================== */
+#logo{ float:left;}
+
+#menu { float:right; padding-top:85px;}
+#menu li { float:left; padding-right:1px; margin-left:-1px; background:url(images/menu_line.jpg) right 30px no-repeat}
+#menu .last-menu-item{ background:none}
+#menu li a{ display:block; margin:0 -1px 0 0; font-size:18px; color:#f5f5f5; text-transform:uppercase; text-decoration:none; line-height:64px;}
+#menu li a span{ display:block}
+#menu li a span span{ padding:0 25px 7px 26px; }
+#menu li a:hover, #menu .current-menu-item{ color:#ffffff;}
+#menu li a:hover span, #menu .current-menu-item span{ background:url(images/menu_left.gif) bottom left no-repeat}
+#menu li a:hover span span, #menu .current-menu-item span span{ background:url(images/menu_right.gif) bottom right no-repeat}
+/*
+#menu .nav1 a:hover, #menu .nav1 .current-menu-item{ background:url(images/menu_bg.jpg) 20px 0 repeat-x;}
+#menu .nav2 a:hover, #menu .nav2 .current-menu-item{ background:url(images/menu_bg.jpg) 13px 0 repeat-x;}
+#menu .nav3 a:hover, #menu .nav3 .current-menu-item{ background:url(images/menu_bg.jpg) 15px 0 repeat-x;}
+#menu .nav4 a:hover, #menu .nav4 .current-menu-item{ background:url(images/menu_bg.jpg) 1px 0 repeat-x;}
+#menu .nav5 a:hover, #menu .nav5 .current-menu-item{ background:url(images/menu_bg.jpg) 22px 0 repeat-x;}
+*/
+#menu .menu-item a:hover, #menu .current-menu-item a { background:url(images/menu_bg.jpg) 0 repeat-x;}
+
+#banners{ float:left; width:263px; padding-right:7px;}
+#banners li a{ display:block; padding:26px 0 0 28px; font-size:36px; line-height:36px; color:#fffaed; text-decoration:none; text-transform:uppercase}
+#banner1{ background:url(images/banner1_bg.jpg) top repeat-x}
+#banner2{ background:url(images/banner2_bg.jpg) top repeat-x}
+#banner3{ background:url(images/banner3_bg.jpg) top repeat-x}
+#banner1 a{ background:url(images/banner1_left.jpg) top left no-repeat; height:107px;}
+#banner1 a:hover{ background:url(images/banner1_left.jpg) top repeat-x}
+#banner2 a{ background:url(images/banner2_left.jpg) top left no-repeat; height:108px;}
+#banner2 a:hover{ background:url(images/banner2_left.jpg) top repeat-x}
+#banner3 a{ background:url(images/banner3_left.jpg) top left no-repeat; height:107px;}
+#banner3 a:hover{ background:url(images/banner3_left.jpg) top repeat-x}
+
+/*--- slider begin ---*/
+
+#faded { padding-bottom:4px; float:left;}
+#faded .rap {overflow: hidden; height:400px; width:675px; position:relative; z-index:1}
+
+ul.pagination { position:absolute; z-index:2; top:188px; padding-left:564px; width:120px;}
+ul.pagination li {float:left; padding-right:4px; font-size:0;}
+ul.pagination li a {background:#e1dcc6; height:5px; width:7px; display:block; padding:6px; line-height:0; color:#e1dcc6;}
+ul.pagination li a:hover, ul.pagination li.current a { background:#2e2e2e; color:#2e2e2e}
+
+/*--- slider end ---*/
+
+/* ============================= content ====================== */
+.pad_left1{ padding-left:45px;}
+.pad_left2{ padding-left:30px;}
+.marg_top1{ margin-top:7px;}
+.marg_right1{ margin-right:18px;}
+.marg_right2{ margin-right:88px;}
+.pad_bot1{ padding-bottom:16px;}
+.pad_bot2{ padding-bottom:25px;}
+
+#content img{ margin-top:8px;}
+
+#welcome{ padding-left:310px; background:url(images/bg_welcome.jpg) no-repeat #fbfbfd; padding-bottom:31px;}
+#welcome h1{ font-size:45px; line-height:48px; padding:28px 0 19px 0}
+#welcome .button{ background:url(images/button1_bg.jpg) top repeat-x}
+#welcome .button span{ background:url(images/button1_left.jpg) top left no-repeat}
+#welcome .button span span{ background:url(images/button1_right.jpg) top right no-repeat}
+ 
+.font1{ font-size:24px; color:#b4a990; line-height:27px;}
+
+.button{ display:inline-block; font-weight:bold; color:#fff; text-decoration:none; line-height:31px; background:url(images/button3_bg.jpg) top repeat-x}
+.button span{ display:block; background:url(images/button3_right.jpg) top right no-repeat}
+.button span span{ padding:0 21px; background:url(images/button3_left.jpg) top left no-repeat}
+.button:hover{ color:#8e846b;}
+
+.link1{ font-weight:bold; color:#bea97c}
+
+.color1{ color:#fd8c1e}
+
+.box1{ background: url(images/box2_bg.jpg) top repeat-x #f5f2e9; padding:0 30px 30px 40px}
+.box1 .list1 li{ background:url(images/marker_1.jpg) 0 6px no-repeat}
+.box2{ background: url(images/box_bg.jpg) top repeat-x #bfb496; padding:0 25px 18px 27px; color:#fff; line-height:17px}
+.box2 h1{ color:#fff; padding-bottom:11px}
+
+.list1 li{ line-height:28px; padding-left:30px; background:url(images/marker_2.jpg) 0 6px no-repeat}
+.list1 li a{ font-weight:bold; color:#8b7e63; text-decoration:none;}
+.list1 li a:hover{ text-decoration:underline}
+
+.cols_line{ background:url(images/line_ver1.jpg) 315px 0 repeat-y; padding-left:20px; margin-top:50px;}
+.cols_line h1{ padding:10px 0 23px 0 }
+.cols_line .box{ background:url(images/page1_img1.jpg) 110px 152px no-repeat; padding-bottom:63px;}
+.cols_line .box p{ padding-bottom:36px;}
+.cols_line .box h1{ text-transform:none; padding-bottom:7px;}
+
+.price li{ line-height:28px; font-weight:bold;color:#8b7e63; background: url(images/bg_prices.jpg) 0 20px repeat}
+.price span{ background:#f6f4ec;}
+.price a{color:#8b7e63; text-decoration:none}
+.price a:hover{ text-decoration:underline}
+
+/* ============================= footer ====================== */
+
+#footer { color:#b6b0a0; text-transform:uppercase; font-size:12px; padding-top:35px; padding-bottom:39px;}
+#footer a{ color:#b6b0a0;}
+
+/* ============================= forms ============================= */
+#form_1{ width:218px; overflow:hidden; margin-top:-6px;}
+#form_1 .bg1{ background:url(images/input1.jpg) no-repeat; margin-bottom:7px; line-height:0; font-size:0}
+#form_1 .input{ background:none; width:178px; height:15px; font:13px Arial, Helvetica, sans-serif; color:#a79877; padding:9px 20px;}
+#form_1 .button{ text-transform:uppercase; background:url(images/button2_bg.jpg) top repeat-x; float:right}
+#form_1 .button span{ background:url(images/button2_left.jpg) top left no-repeat}
+#form_1 .button span span{ background:url(images/button2_right.jpg) top right no-repeat}
+
+
+#ContactForm { width:194px; overflow:hidden; padding-top:5px;}
+#ContactForm .bg1{ background:url(images/input2.jpg) no-repeat; margin-bottom:5px;}
+#ContactForm .bg2{ background:url(images/textarea.jpg) no-repeat}
+#ContactForm .button{ margin-left:7px; float:right; text-transform:uppercase; margin-top:22px; background:url(images/button4_bg.jpg) top repeat-x}
+#ContactForm .button span{ background:url(images/button4_left.jpg) top left no-repeat}
+#ContactForm .button span span{ background:url(images/button4_right.jpg) top right no-repeat; padding:0 18px;}
+#ContactForm .input {width:162px; height:15px; background: none; padding:10px 16px; color:#a79877; font:13px Arial, Helvetica, sans-serif;}
+#ContactForm textarea {width:162px; height:251px; background: none; padding:10px 16px; color:#a79877; font:13px Arial, Helvetica, sans-serif;  overflow:auto;}
