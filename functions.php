@@ -3,6 +3,14 @@
  * @package WordPress
  */
 
+/**
+ * Bacnkground
+ */
+add_custom_background();
+
+/**
+ * Menu functions
+ */
 add_theme_support( 'menus' );
  
 // Add class to first and last items of menu
