@@ -3,6 +3,8 @@
  * @package WordPress
  */
 
+add_theme_support( 'menus' );
+ 
 // Add class to first and last items of menu
 function add_first_and_last($output) {
   $output = preg_replace('/class="menu-item/', 'class="first-menu-item menu-item', $output, 1);
