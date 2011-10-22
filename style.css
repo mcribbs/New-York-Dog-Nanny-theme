@@ -32,11 +32,10 @@ p{ padding-bottom:20px;}
 img{ vertical-align:top}
 
 
-.bot{ height:100px; background:url(images/bg_bot.jpg) top center repeat-x}
+#bot{ height:240px; background:url(images/bg_bot.jpg) top center repeat-x}
 /* ============================= header ====================== */
 #logo{ float:left;}
 
-#menu { float:right; padding-top:80px;}
 #menu li { float:left; padding-right:1px; margin-left:-1px; background:url(images/menu_line.jpg) right 30px no-repeat}
 #menu .last-menu-item { background:none}
 #menu li a{ display:block; margin:0 -1px 0 0; color:#f5f5f5; font-size:18px; text-transform:uppercase; text-decoration:none; line-height:64px;}
@@ -53,6 +52,8 @@ img{ vertical-align:top}
 #menu .nav5 a:hover, #menu .nav5 .current-menu-item{ background:url(images/menu_bg.jpg) 22px 0 repeat-x;}
 */
 #menu .menu-item a:hover, #menu .current-menu-item a { background:url(images/menu_bg.jpg) 0 repeat-x;}
+
+#headercallout li {background:url(images/box2_bg.jpg); padding:10px; -moz-border-radius: 15px; border-radius: 15px; border: 2px solid #8E846B; }
 
 #banners{ float:left; width:263px; padding-right:7px;}
 #banners li a{ display:block; padding:26px 0 0 28px; font-size:36px; line-height:36px; color:#fffaed; text-decoration:none; text-transform:uppercase}
@@ -128,8 +129,31 @@ ul.pagination li a:hover, ul.pagination li.current a { background:#2e2e2e; color
 
 /* ============================= footer ====================== */
 
-#footer { color:#b6b0a0; text-transform:uppercase; font-size:12px; padding-top:35px; padding-bottom:39px;}
-#footer a{ color:#b6b0a0;}
+#footer { color:#b6b0a0; font-size:12px; padding-top:40px; margin-bottom:-230px; height:200px;}
+#footer h2 {text-transform:uppercase; margin-bottom: 5px;}
+#footer a{ color:#b6b0a0; text-decoration: none;}
+#footer a:hover{ text-decoration:underline;}
+#footer li.widget { float:left; padding-right:12px; margin-left:12px; margin-bottom: 10px; height: 170px; overflow:hidden;}
+#footer li ul {padding-left: 20px;}
+#footer li ul li {list-style: disc;}
+#footer .divider {border-right: 1px dotted #b6b0a0; height: 160px;}
+#powered-by {text-align: right; font-size: 10px; text-transform:uppercase;}
+.social-icons-list {margin-left: -20px;}
+.social-icons li {display: inline;}
+.social-icons li a { display: block;
+	float: left;
+	width: 0;
+	height: 0;
+	padding: 32px 32px 0 0;
+	margin: 4px 14px 0 0;
+	font-size: 0;
+	line-height: 0;
+	overflow: hidden;
+}
+.social-icons li.facebook a {background: url(images/facebook.png);}
+.social-icons li.twitter a {background: url(images/twitter.png);}
+.social-icons li.yelp a {background: url(images/yelp.png);}
+.social-icons li.youtube a {background: url(images/youtube.png);}
 
 /* ============================= forms ============================= */
 #form_1{ width:218px; overflow:hidden; margin-top:-6px;}

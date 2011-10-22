@@ -1,17 +1,3 @@
-<!--
-	<link rel="stylesheet" type="text/css" media="screen" href="<?php echo get_stylesheet_uri(); ?>" />
-	<link rel="stylesheet" type="text/css" media="print" href="<?php bloginfo('template_url'); ?>/css/print.css" />
-	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-	<?php
-	if ( is_singular() ) wp_enqueue_script( 'comment-reply' );
-	//wp_head();
-	?>
-
-<body <?php body_class(); ?>>
-<div id="page">
-		<hr />
--->
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" <?php language_attributes(); ?>>
 <head>
@@ -43,6 +29,9 @@
 				<!--header -->
 				<div id="header">
 					<div class="wrapper">
+						<div id="headercallout">
+							<?php /* WordPress Widget Support */ if (function_exists('dynamic_sidebar') and dynamic_sidebar('Header callout')) { }  ?>
+						</div>
 						<ul id="menu">
 							<?php wp_nav_menu( array( 'theme_location' => 'primary', 
 								'sort_column' => 'menu_order', 
