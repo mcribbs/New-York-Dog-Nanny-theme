@@ -24,10 +24,10 @@ body{
 
 /* ============================= main layout ====================== */
 
-a{ color:#fd8c1e; text-decoration: underline; outline:none}
-a:hover{ text-decoration: none}
+a{ font-weight: bold; color: #BEA97C; text-decoration: underline; outline:none}
 li{ list-style:none}
-h1{ font-size:36px; line-height:38px; text-transform:uppercase; color:#bea97c; padding:31px 0 20px 0}
+.entry-head h3{ font-size:36px; line-height:38px; text-transform:uppercase; color:#bea97c; }
+.entry-head h3 a {color:#bea97c; text-decoration: none;}
 p{ padding-bottom:20px;}
 img{ vertical-align:top}
 
@@ -90,8 +90,8 @@ ul.pagination li a:hover, ul.pagination li.current a { background:#2e2e2e; color
 
 #content img{ margin-top:8px;}
 
-#welcome{ padding-left:310px; background:url(images/bg_welcome.jpg) no-repeat #fbfbfd; padding-bottom:31px;}
-#welcome h1{ font-size:45px; line-height:48px; padding:28px 0 19px 0}
+#welcome{ padding-left:310px; background:url(images/bg_welcome.jpg) no-repeat #fbfbfd; padding-right:20px;}
+#welcome h3{ font-size:45px; line-height:48px; padding:28px 0 19px 0}
 #welcome .button{ background:url(images/button1_bg.jpg) top repeat-x}
 #welcome .button span{ background:url(images/button1_left.jpg) top left no-repeat}
 #welcome .button span span{ background:url(images/button1_right.jpg) top right no-repeat}
@@ -107,14 +107,14 @@ ul.pagination li a:hover, ul.pagination li.current a { background:#2e2e2e; color
 
 .color1{ color:#fd8c1e}
 
-.box1{ background: url(images/box2_bg.jpg) top repeat-x #f5f2e9; padding:0 30px 30px 40px}
-.box1 .list1 li{ background:url(images/marker_1.jpg) 0 6px no-repeat}
+.box1{ background: url(images/box2_bg.jpg) top repeat-x #f5f2e9; padding:10px 30px 30px 30px; margin: 0 0 0 20px; border: #bea97c solid 1px; -moz-border-radius: 15px; border-radius: 15px;}
+.box1 li{ padding: 5px 0 20px 0;}
 .box2{ background: url(images/box_bg.jpg) top repeat-x #bfb496; padding:0 25px 18px 27px; color:#fff; line-height:17px}
 .box2 h1{ color:#fff; padding-bottom:11px}
 
-.list1 li{ line-height:28px; padding-left:30px; background:url(images/marker_2.jpg) 0 6px no-repeat}
-.list1 li a{ font-weight:bold; color:#8b7e63; text-decoration:none;}
-.list1 li a:hover{ text-decoration:underline}
+.box1 li ul li{ line-height:28px; padding-left:30px; background:url(images/marker_2.jpg) 0 6px no-repeat; padding: 0 0 0 25px;}
+.box1 li ul li a{ font-weight:bold; color:#8b7e63; text-decoration:none;}
+.box1 li ul li a:hover{ text-decoration:underline}
 
 .cols_line{ background:url(images/line_ver1.jpg) 315px 0 repeat-y; padding-left:20px; margin-top:50px;}
 .cols_line h1{ padding:10px 0 23px 0 }
@@ -126,6 +126,17 @@ ul.pagination li a:hover, ul.pagination li.current a { background:#2e2e2e; color
 .price span{ background:#f6f4ec;}
 .price a{color:#8b7e63; text-decoration:none}
 .price a:hover{ text-decoration:underline}
+
+.col2 {background: white; padding: 15px; border: #bea97c solid 1px; -moz-border-radius: 15px; border-radius: 15px;} 
+
+
+input, textarea {-moz-border-radius: 15px; border-radius: 15px; border: solid 1px #bea97c; padding: 5px;}
+input#s {width: 115px}
+input#searchsubmit, .wpcf7-submit { background: #8E846B;color: white; font-weight: bold;}
+
+.widget_search .screen-reader-text {
+	display:none;
+}
 
 /* ============================= footer ====================== */
 
@@ -154,6 +165,7 @@ ul.pagination li a:hover, ul.pagination li.current a { background:#2e2e2e; color
 .social-icons li.twitter a {background: url(images/twitter.png);}
 .social-icons li.yelp a {background: url(images/yelp.png);}
 .social-icons li.youtube a {background: url(images/youtube.png);}
+.social-icons li.google a {background: url(images/google.png);}
 
 /* ============================= forms ============================= */
 #form_1{ width:218px; overflow:hidden; margin-top:-6px;}

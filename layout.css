@@ -1,9 +1,9 @@
 .main { width:946px; margin:0 auto;}
 .body1{ background:url(images/bg_top.jpg) top repeat-x}
-#header {width:100%; overflow:hidden; height:609px;}
+#header {width:100%; overflow:hidden;}
 #headercallout {position: static; float: right; top: 0; height: 70px; margin-bottom: -80px; padding-top: 8px; overflow:hidden;}
 #menu { float:right; padding-top:80px;}
-#content{  width:100%; overflow:hidden; padding-top:7px; border-bottom:1px solid #eee9dd; padding-bottom:50px;}
+#content{  width:100%; overflow:hidden; padding-top:7px; }
 #footer {width:100%; overflow:hidden; }
 
 .wrapper {width:100%; overflow:hidden;}

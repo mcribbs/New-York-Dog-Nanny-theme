@@ -22,7 +22,7 @@
 	<?php wp_head(); ?>
 </head>
 
-<body id="page1">
+<body>
 	<div class="extra">
 		<div class="body1">
 			<div class="main">
@@ -40,28 +40,5 @@
 								'link_before' => '<span><span>',
 								'link_after' => '</span></span>') ); ?>
 						</ul>
-						<a href="index.html"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" id="logo" alt="" /></a>
+						<a href="http://mcribbs.net/dev/"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" id="logo" alt="" /></a>
 					</div>
-					<div class="wrapper">
-						<ul id="banners">
-							<li id="banner1"><a href="#">dog<br /> boarding</a></li>
-							<li id="banner2"><a href="#">Basic<br />  horse care</a></li>
-							<li id="banner3"><a href="#">puppy<br /> training</a></li>
-						</ul>
-						<!-- slider begin -->
-						<div id="faded">
-							<div class="rap">
-							  	<img src="<?php bloginfo('template_url'); ?>/images/img1.jpg" alt="" width="675" height="400" />
-								<img src="<?php bloginfo('template_url'); ?>/images/img2.jpg" alt="" width="675" height="400" />
-								<img src="<?php bloginfo('template_url'); ?>/images/img3.jpg" alt="" width="675" height="400" />
-								<img src="<?php bloginfo('template_url'); ?>/images/img4.jpg" alt="" width="675" height="400" />
-								<img src="<?php bloginfo('template_url'); ?>/images/img5.jpg" alt="" width="675" height="400" />
-							</div>
-						</div>
-						<!-- slider end -->
-					</div>
-				</div>
-				<!--header end-->		
-			</div>
-		</div>
-		<div class="main">
