@@ -75,11 +75,7 @@ img{ vertical-align:top}
 #faded { padding-bottom:4px; float:left;}
 #faded .rap {overflow: hidden; height:400px; width:675px; position:relative; z-index:1}
 
-<<<<<<< HEAD
 ul.pagination { position:absolute; z-index:2; top:237px; padding-left:564px; width:120px;}
-=======
-ul.pagination { position:absolute; z-index:2; top:265px; padding-left:564px; width:120px;}
->>>>>>> refs/heads/AltHeader
 ul.pagination li {float:left; padding-right:4px; font-size:0;}
 ul.pagination li a {background:#e1dcc6; height:5px; width:7px; display:block; padding:6px; line-height:0; color:#e1dcc6;}
 ul.pagination li a:hover, ul.pagination li.current a { background:#2e2e2e; color:#2e2e2e}
