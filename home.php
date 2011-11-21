@@ -5,7 +5,7 @@ Template Name: Home page
 get_header(); ?>
 			<div class="wrapper">
 				<ul id="banners">
-					<li id="banner1"><a href="#">Daycare</a></li>
+					<li id="banner1"><a href="#">Day care</a></li>
 					<li id="banner2"><a href="#">Cage free<br />boarding</a></li>
 					<li id="banner3"><a href="#">Spa</a></li>
 				</ul>
