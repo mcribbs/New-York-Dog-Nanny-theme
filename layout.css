@@ -1,8 +1,14 @@
 .main { width:946px; margin:0 auto;}
-.body1{ background:url(images/bg_top.jpg) top repeat-x}
+.body1{ background:url(images/bg_top.png) top repeat-x}
 #header {width:100%; overflow:hidden;}
+<<<<<<< HEAD
 #headercallout {position: static; float: right; top: 0; height: 80px; margin-bottom: -80px; padding-top: 8px; overflow:hidden;}
 #menu { float:right; padding-top:72px;}
+=======
+#headercallout {position: static; float: right; top: 0; height: 100px; margin-bottom: -80px; padding-top: 40px; overflow:hidden;}
+#logo {margin-top: -30px;}
+#menu { float:right; padding-top:110px; padding-bottom: 20px;}
+>>>>>>> refs/heads/AltHeader
 #content{  width:100%; overflow:hidden; padding-top:7px; }
 #footer {width:100%; overflow:hidden; }
 
