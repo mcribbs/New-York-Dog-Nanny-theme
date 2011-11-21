@@ -66,7 +66,7 @@
 
 			<div class="entry-content">
 				<?php
-					the_content(__('Continue reading','k2_domain') . " '" . the_title('', '', false) . "'");
+					the_content(__('<img class="more-img" src="' . get_bloginfo('template_directory'). '/images/marker_2.jpg" /><span class="more-text">Continue reading','k2_domain') . " '" . the_title('', '', false) . "'</span>");
 				?>
 
 				<?php link_pages('<p><strong>'.__('Pages:','k2_domain').'</strong> ', '</p>', 'number'); ?>

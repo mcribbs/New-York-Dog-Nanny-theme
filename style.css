@@ -115,7 +115,7 @@ ul.pagination li a:hover, ul.pagination li.current a { background:#2e2e2e; color
 .box2{ background: url(images/box_bg.jpg) top repeat-x #bfb496; padding:0 25px 18px 27px; color:#fff; line-height:17px}
 .box2 h1{ color:#fff; padding-bottom:11px}
 
-.box1 li ul li{ line-height:28px; padding-left:30px; background:url(images/marker_2.jpg) 0 6px no-repeat; padding: 0 0 0 25px;}
+.box1 li ul li{ line-height:28px; padding-left:30px; background:url(images/marker_1.jpg) 0 6px no-repeat; padding: 0 0 0 25px;}
 .box1 li ul li a{ font-weight:bold; color:#8b7e63; text-decoration:none;}
 .box1 li ul li a:hover{ text-decoration:underline}
 
@@ -142,6 +142,20 @@ input#searchsubmit, .wpcf7-submit { background: #8E846B;color: white; font-weigh
 }
 
 .entry-title {margin-top: 10px;}
+.more-text {margin-left: 5px;}
+.more-img {vertical-align:middle; margin-top:0px!important;}
+
+.nav-previous {
+    float: left;
+    width: 50%;
+}
+
+.nav-next {
+    float: right;
+    text-align: right;
+    width: 50%;
+}
+
 /* ============================= footer ====================== */
 
 #footer { color:#b6b0a0; font-size:12px; padding-top:40px; margin-bottom:-230px; height:200px;}
