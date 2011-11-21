@@ -54,7 +54,9 @@ img{ vertical-align:top}
 #menu .menu-item a:hover, #menu .current-menu-item a { background:url(images/menu_bg.jpg) 0 repeat-x;}
 
 #headercallout li {background:url(images/box2_bg.jpg); padding:10px; -moz-border-radius: 15px; border-radius: 15px; border: 2px solid #8E846B; }
-
+#headercallout li div h3 {font-size: 28px;}
+#headercallout li div {font-size: 20px;}
+ 
 #banners{ float:left; width:263px; padding-right:7px;}
 #banners li a{ display:block; padding:26px 0 0 28px; font-size:36px; line-height:36px; color:#fffaed; text-decoration:none; text-transform:uppercase}
 #banner1{ background:url(images/banner1_bg.jpg) top repeat-x}
