@@ -8,7 +8,9 @@
 	<div class="col2">
 		<div class="wrapper">
 			<?php include (TEMPLATEPATH . '/theloop.php'); ?>
-
+		</div>
+		<div class="navigation">
+			<p><?php posts_nav_link(); ?></p>
 		</div>
 	</div>
 	<div class="col1">
