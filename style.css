@@ -39,8 +39,8 @@ img{ vertical-align:top}
 #menu li { float:left; padding-right:1px; margin-left:-1px; background:url(images/menu_line.jpg) right 30px no-repeat}
 #menu .last-menu-item { background:none}
 #menu li a{ display:block; margin:0 -1px 0 0; color:#000; font-size:18px; text-transform:uppercase; text-decoration:none; line-height:64px;}
-#menu li a span{ display:block}
-#menu li a span span{ padding:0 25px 7px 26px; }
+#menu li a { display:block}
+#menu li a { padding:0 25px 7px 26px; }
 /*
 #menu li a:hover, .current-menu-item a{ color:#94C2BA!important;}
 

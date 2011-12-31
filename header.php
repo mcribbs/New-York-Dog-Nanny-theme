@@ -33,12 +33,12 @@
 							<?php /* WordPress Widget Support */ if (function_exists('dynamic_sidebar') and dynamic_sidebar('Header callout')) { }  ?>
 						</div>
 						<ul id="menu">
-							<?php wp_nav_menu( array( 'theme_location' => 'primary', 
+							<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 
 								'sort_column' => 'menu_order', 
 								'container' => false, 
 								'items_wrap' => '%3$s',
 								'link_before' => '<span><span>',
 								'link_after' => '</span></span>') ); ?>
 						</ul>
-						<a id="logo" href="http://mcribbs.net/dev/"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" id="logo" alt="" /></a>
+						<a id="logo" href="/"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" id="logo" alt="" /></a>
 					</div>
