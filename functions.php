@@ -12,6 +12,9 @@ add_custom_background();
  * Menu functions
  */
 add_theme_support( 'menus' );
+register_nav_menus(
+    array('header-menu' => __( 'Header menu' ) )
+  );
  
 // Add class to first and last items of menu
 function add_first_and_last($output) {
