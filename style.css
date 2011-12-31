@@ -38,22 +38,23 @@ img{ vertical-align:top}
 
 #menu li { float:left; padding-right:1px; margin-left:-1px; background:url(images/menu_line.jpg) right 30px no-repeat}
 #menu .last-menu-item { background:none}
-#menu li a{ display:block; margin:0 -1px 0 0; color:#f5f5f5; font-size:18px; text-transform:uppercase; text-decoration:none; line-height:64px;}
+#menu li a{ display:block; margin:0 -1px 0 0; color:#000; font-size:18px; text-transform:uppercase; text-decoration:none; line-height:64px;}
 #menu li a span{ display:block}
 #menu li a span span{ padding:0 25px 7px 26px; }
-#menu li a:hover, .current-menu-item a{ color:#94C2BA!important;}
 /*
+#menu li a:hover, .current-menu-item a{ color:#94C2BA!important;}
+
 #menu li a:hover span, #menu .current-menu-item span{ background:url(images/menu_left.gif) bottom left no-repeat}
 #menu li a:hover span span, #menu .current-menu-item span span{ background:url(images/menu_right.gif) bottom right no-repeat}
-/*
+
 #menu .nav1 a:hover, #menu .nav1 .current-menu-item{ background:url(images/menu_bg.jpg) 20px 0 repeat-x;}
 #menu .nav2 a:hover, #menu .nav2 .current-menu-item{ background:url(images/menu_bg.jpg) 13px 0 repeat-x;}
 #menu .nav3 a:hover, #menu .nav3 .current-menu-item{ background:url(images/menu_bg.jpg) 15px 0 repeat-x;}
 #menu .nav4 a:hover, #menu .nav4 .current-menu-item{ background:url(images/menu_bg.jpg) 1px 0 repeat-x;}
 #menu .nav5 a:hover, #menu .nav5 .current-menu-item{ background:url(images/menu_bg.jpg) 22px 0 repeat-x;}
-*
-#menu .menu-item a:hover, #menu .current-menu-item a { background:url(images/menu_bg.jpg) 0 repeat-x;}
 */
+#menu .current-menu-item a { background:url(images/menu_bg.png) center no-repeat;}
+
 #headercallout li {background:url(images/box2_bg.jpg); padding:10px; -moz-border-radius: 15px; border-radius: 15px; border: 2px solid #8E846B; }
 #headercallout li div h3 {font-size: 28px;}
 #headercallout li div {font-size: 20px;}
@@ -141,7 +142,7 @@ input#searchsubmit, .wpcf7-submit { background: #8E846B;color: white; font-weigh
 	display:none;
 }
 
-.entry-title {margin-top: 10px;}
+.entry-title { margin-bottom: 10px;}
 .more-text {margin-left: 5px;}
 .more-img {vertical-align:middle; margin-top:0px!important;}
 
@@ -162,7 +163,7 @@ input#searchsubmit, .wpcf7-submit { background: #8E846B;color: white; font-weigh
 #footer h2 {text-transform:uppercase; margin-bottom: 5px;}
 #footer a{ color:#b6b0a0; text-decoration: none;}
 #footer a:hover{ text-decoration:underline;}
-#footer li.widget { float:left; padding-right:12px; margin-left:12px; margin-bottom: 10px; height: 170px; overflow:hidden;}
+#footer li.widget { float:left; padding-right:5px; margin-left:5px; margin-bottom: 10px; height: 170px; overflow:hidden;}
 #footer li ul {padding-left: 20px;}
 #footer li ul li {list-style: disc;}
 #footer .divider {border-right: 1px dotted #b6b0a0; height: 160px;}
