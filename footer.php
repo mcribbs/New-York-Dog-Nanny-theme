@@ -7,7 +7,7 @@
 		Care &copy; 2010  &nbsp;|&nbsp;  <a href="index-5.html">Privacy policy</a><br />
 		<!-- {%FOOTER_LINK} -->		
 	<?php } ?>
-	<div id="powered-by" class="wrapper">Copyright © 2011 New York Dog Nanny | Powered by <a href="http://www.wordpress.org/">WordPress</a> | <a href="/wp-admin/">Admin Login</a></div>
+	<div id="powered-by" class="wrapper">Copyright © 2011 New York Dog Nanny | Powered by <a href="http://www.wordpress.org/">WordPress</a> | <a href="/blog//wp-admin/">Admin Login</a></div>
 	</div>
 	</div>
 	<div id="bot"></div>

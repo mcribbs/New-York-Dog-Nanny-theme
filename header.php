@@ -40,5 +40,5 @@
 								'link_before' => '<span><span>',
 								'link_after' => '</span></span>') ); ?>
 						</ul>
-						<a id="logo" href="/"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" id="logo" alt="" /></a>
+						<a id="logo" href="/blog/"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" id="logo" alt="" /></a>
 					</div>
