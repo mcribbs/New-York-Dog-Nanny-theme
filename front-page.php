@@ -12,14 +12,42 @@ get_header(); ?>
 				<!-- slider begin -->
 				<div id="faded">
 					<div class="rap">
-						<img src="<?php bloginfo('template_url'); ?>/images/img1.jpg" alt="" width="675" height="400" />
-						<img src="<?php bloginfo('template_url'); ?>/images/img2.jpg" alt="" width="675" height="400" />
-						<img src="<?php bloginfo('template_url'); ?>/images/img3.jpg" alt="" width="675" height="400" />
-						<img src="<?php bloginfo('template_url'); ?>/images/img4.jpg" alt="" width="675" height="400" />
-						<img src="<?php bloginfo('template_url'); ?>/images/img5.jpg" alt="" width="675" height="400" />
+						<img src="<?php bloginfo('template_url'); ?>/images/img1.jpg" alt="" width="511" height="303" />
+						<img src="<?php bloginfo('template_url'); ?>/images/img2.jpg" alt="" width="511" height="303" />
+						<img src="<?php bloginfo('template_url'); ?>/images/img3.jpg" alt="" width="511" height="303" />
+						<img src="<?php bloginfo('template_url'); ?>/images/img4.jpg" alt="" width="511" height="303" />
+						<img src="<?php bloginfo('template_url'); ?>/images/img5.jpg" alt="" width="511" height="303" />
 					</div>
 				</div>
 				<!-- slider end -->
+				<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+				<script>
+				new TWTR.Widget({
+				  version: 2,
+				  type: 'profile',
+				  rpp: 3,
+				  interval: 30000,
+				  width: 196,
+				  height: 249,
+				  theme: {
+				    shell: {
+				      background: '#fbfbfd',
+				      color: '#8e846b'
+				    },
+				    tweets: {
+				      background: '#fbfbfd',
+				      color: '#8e846b',
+				      links: '#8b7e63'
+				    }
+				  },
+				  features: {
+				    scrollbar: true,
+				    loop: false,
+				    live: true,
+				    behavior: 'all'
+				  }
+				}).render().setUser('newyorkdognanny').start();
+				</script>
 			</div>
 		</div>
 		<!--header end-->		

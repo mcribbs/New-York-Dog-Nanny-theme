@@ -59,29 +59,34 @@ img{ vertical-align:top}
 #headercallout li div h3 {font-size: 28px;}
 #headercallout li div {font-size: 20px;}
  
-#banners{ float:left; width:263px; padding-right:7px;}
-#banners li a{ display:block; padding:26px 0 0 28px; font-size:36px; line-height:36px; color:#fffaed; text-decoration:none; text-transform:uppercase}
-#banner1{ background:url(images/banner1_bg.jpg) top repeat-x}
-#banner2{ background:url(images/banner2_bg.jpg) top repeat-x}
-#banner3{ background:url(images/banner3_bg.jpg) top repeat-x}
-#banner1 a{ background:url(images/banner1_left.jpg) top left no-repeat; height:107px;}
+#banners{ float:left; width:232px; padding-right:2px;}
+#banners li a{ display:block; padding:20px 0 0 18px; font-size:45px; line-height:36px; color:#fffaed; text-decoration:none; font-weight:bold;margin-bottom: 1px;}
+#banner1{ background:url(images/banner1_bg.jpg) top repeat-x; -moz-border-radius: 5px; border-radius: 5px}
+#banner2{ background:url(images/banner2_bg.jpg) top repeat-x; -moz-border-radius: 5px; border-radius: 5px}
+#banner3{ background:url(images/banner3_bg.jpg) top repeat-x; -moz-border-radius: 5px; border-radius: 5px}
+#banner1 a{ background:url(images/banner1_left.jpg) top left no-repeat; height:80px;}
 #banner1 a:hover{ background:url(images/banner1_left.jpg) top repeat-x}
-#banner2 a{ background:url(images/banner2_left.jpg) top left no-repeat; height:108px;}
+#banner2 a{ background:url(images/banner2_left.jpg) top left no-repeat; height:80px;}
 #banner2 a:hover{ background:url(images/banner2_left.jpg) top repeat-x}
-#banner3 a{ background:url(images/banner3_left.jpg) top left no-repeat; height:107px;}
+#banner3 a{ background:url(images/banner3_left.jpg) top left no-repeat; height:80px;}
 #banner3 a:hover{ background:url(images/banner3_left.jpg) top repeat-x}
 
 /*--- slider begin ---*/
 
-#faded { padding-bottom:4px; float:left;}
-#faded .rap {overflow: hidden; height:400px; width:675px; position:relative; z-index:1}
+#faded { padding-bottom:4px; float:left; -moz-border-radius: 5px; border-radius: 5px;}
+#faded .rap {overflow: hidden; height:303px; width:511px; position:relative; z-index:1; }
 
-ul.pagination { position:absolute; z-index:2; top:237px; padding-left:564px; width:120px;}
+ul.pagination { position:absolute; z-index:2; top:237px; padding-left:400px; width:120px;}
 ul.pagination li {float:left; padding-right:4px; font-size:0;}
 ul.pagination li a {background:#e1dcc6; height:5px; width:7px; display:block; padding:6px; line-height:0; color:#e1dcc6;}
 ul.pagination li a:hover, ul.pagination li.current a { background:#2e2e2e; color:#2e2e2e}
 
 /*--- slider end ---*/
+
+.twtr-widget { float: right; width: 196px; border: #bea97c solid 1px; -moz-border-radius: 5px; border-radius: 5px}
+.twtr-hd h4 {display: none;}
+.twtr-ft {display: none;}
+
 
 /* ============================= content ====================== */
 .pad_left1{ padding-left:45px;}
@@ -94,7 +99,7 @@ ul.pagination li a:hover, ul.pagination li.current a { background:#2e2e2e; color
 
 #content img{ margin-top:8px;}
 
-#welcome{ padding-left:310px; background:url(images/bg_welcome.jpg) no-repeat #fbfbfd; padding-right:20px;}
+#welcome{ padding-left:20px; background: #fbfbfd; padding-right:20px; border: #bea97c solid 1px; -moz-border-radius: 15px; border-radius: 15px;}
 #welcome h3{ font-size:45px; line-height:48px; padding:28px 0 19px 0}
 #welcome .button{ background:url(images/button1_bg.jpg) top repeat-x}
 #welcome .button span{ background:url(images/button1_left.jpg) top left no-repeat}

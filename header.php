@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" <?php language_attributes(); ?>>
 <head>
-	<title><?php wp_title(); ?> <?php bloginfo('name'); ?></title>
+	<title><?php bloginfo('name'); ?></title>
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<link href="<?php bloginfo('template_url'); ?>/style.css" rel="stylesheet" type="text/css" />
 	<link href="<?php bloginfo('template_url'); ?>/layout.css" rel="stylesheet" type="text/css" />
@@ -17,6 +17,7 @@
 	<script src="<?php bloginfo('template_url'); ?>/js/cufon-yui.js" type="text/javascript"></script>
 	<script src="<?php bloginfo('template_url'); ?>/js/cufon-replace.js" type="text/javascript"></script>
 	<script src="<?php bloginfo('template_url'); ?>/js/RomanSerif_500.font.js" type="text/javascript"></script>
+	<script src="<?php bloginfo('template_url'); ?>/js/Ecolier_400.font.js" type="text/javascript"></script>
 	<script src="<?php bloginfo('template_url'); ?>/js/jquery.faded.js" type="text/javascript"></script>
 	
 	<?php wp_head(); ?>
